@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="text/javascript" src="javasc.js">
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<style>
+p.solid {border-style: solid;}
+</style>
+</head>
+<body bgcolor="#B0B0B0">
+
+<center><h1>Event Management System</h1></center>
+<center><h2>Registration Form</h2></center>
+<p class="solid">
+<form name="details" method ="post" onsubmit="return processform()">
+<center><div border='4'>
+<b> 
+<div>First name :&#160;<input type="text" id="fname" Required/><br><br></div>
+
+<div>Last name : <input type="text" id="lname" Required/><br><br></div>
+
+<div>Mobile No. : <input type="number" id="mob" Required/><br><br></div>
+
+<div>Email : &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160<input type="text" id="mail" name="EMail" Required/></b><br><br></div>
+</div></center>
+<center><label><b>Branch : </b></label><br><br>
+<input type="radio" name="branch" value="comp">COMP&#160;&#160;&#160;&#160;&#160;&#160
+<input type="radio" name="branch" value="entc">ENTC&#160;&#160;&#160;&#160;&#160;&#160
+<input type="radio" name="branch" value="it">IT&#160;&#160;&#160;&#160;&#160;&#160
+<input type="radio" name="branch" value="mech">MECH<br>
+<label><b><h3>Choose the Event : </h3></b></label>
+<input type ="checkbox" value="th" name="event">Treasure hunt&#160;&#160;&#160;&#160;&#160;&#160
+<input type ="checkbox" value="sh" name="event">Snap Hunt&#160;&#160;&#160;&#160;&#160;&#160
+<input type ="checkbox" value="painting" name="event">Painting&#160;&#160;&#160;&#160;&#160;&#160
+<input type ="checkbox" value="skeching" name="event">Sketching&#160;&#160;&#160;&#160;&#160;&#160
+<input type ="checkbox" value="gd" name="event">Group Dance<br><br><br><br></center>
+<center>Register date :
+<input type="date" name="bday"></center>
+<center><input type="submit" id="submit"></center>
+</p>
+</form>
+</body>
+</html>

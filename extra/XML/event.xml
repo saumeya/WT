@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="event.xsl"?>
+<data>
+<student>
+	<name>Treasure Hunt</name>
+	<fees>400</fees>
+	<contact>Priyanka, Aarati</contact>
+	<head>Yashi</head>
+</student>
+<student1>
+	<name>Snap Hunt</name>
+	<fees>200</fees>
+	<contact>Kiran, Sanavi</contact>
+	<head>Girija</head>
+</student1>
+<student2>
+	<name>Group Dance</name>
+	<fees>500</fees>
+	<contact>Vidhi, Rucha</contact>
+	<head>Ankita</head>
+</student2>
+<student3>
+	<name>Sketching</name>
+	<fees>100</fees>
+	<contact>Swati ,Ria</contact>
+	<head>Kajal</head>
+</student3>
+<student4>
+	<name>Painting</name>
+	<fees>100</fees>
+	<contact>Pallavi. Renuka</contact>
+	<head>Monali</head>
+</student4>
+</data>
+
